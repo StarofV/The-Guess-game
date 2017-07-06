@@ -1,4 +1,5 @@
 from random import randint
+import time 
 import os
 os.system('color 9')
 print(r''' __      __       .__                                  __             __  .__                                                 .__                                                
@@ -48,5 +49,7 @@ if __name__ == '__main__':
         another(10)
     except KeyboardInterrupt:
         print("Closing program.")
+        time.sleep(1)
+        os.system('cls')
     except:
         print("There was an error while trying to run the program!")
