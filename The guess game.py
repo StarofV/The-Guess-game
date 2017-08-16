@@ -1,7 +1,7 @@
 from random import randint
 import time 
 import os
-os.system('color 9')
+os.system('color 9') #Linux system will pass.
 print(r''' __      __       .__                                  __             __  .__                                                 .__                                                
 #   __      __       .__                               
 #  /  \    /  \ ____ |  |   ____  ____   _____   ____  
@@ -10,7 +10,8 @@ print(r''' __      __       .__                                  __             
 #    \__/\  /  \___  >____/\___  >____/|__|_|  /\___  >
 #         \/       \/          \/            \/     \/
 I'd recommend running this in cmd :D 
-This was made by Dogeman ~DogeSec~ and by Opicaak, add me in discord :D Dogeman ~DogeSec~#5068''')
+This was made by SpaceDoge ~DogeSec~ and by Opicaak, add me in discord :D SpaceDoge ~DogeSec~#5068.
+Also Special thanks to Opicaak, this wouldn't be possible without him! <3 ''')
 
 
 def another(x):
@@ -50,6 +51,6 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print("Closing program.")
         time.sleep(1)
-        os.system('cls')
+        os.system('cls') #Or "Clear"  
     except:
         print("There was an error while trying to run the program!")
